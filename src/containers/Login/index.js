@@ -193,18 +193,6 @@ class LoginScreen extends Component {
                                onPress={this.onLoginPressHandle}
                   />
                 </View>
-                <View style={styles.separatorWrap}>
-                  <View style={styles.separator}/>
-                  <Text style={styles.separatorText}>Or</Text>
-                  <View style={styles.separator}/>
-
-                </View>
-
-                <ButtonIndex text="FACEBOOK LOGIN" icon={Icons.MaterialCommunityIcons.Facebook}
-                             containerStyle={styles.fbButton}
-                             onPress={this.onFBLoginPressHandle}
-
-                />
                 <TouchableOpacity
                     style={Styles.Common.ColumnCenter}
                     onPress={this.onSignUpHandle}>
